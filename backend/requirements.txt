@@ -2,7 +2,11 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 psycopg2-binary
-pgvector
 pydantic
 python-multipart
 python-dotenv
+sentence-transformers
+pinecone
+python-jose[cryptography]
+passlib[bcrypt]
+email-validator
