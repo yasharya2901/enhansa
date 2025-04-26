@@ -1,0 +1,16 @@
+.vscode
+.idea
+
+*.pyc
+*.pyo
+
+__pycache__
+
+.env
+
+node_modules
+
+frontend/node_modules
+
+frontend/dist
+
