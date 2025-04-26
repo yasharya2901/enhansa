@@ -262,74 +262,325 @@ export const mockChapters = [
 // ];
 
 
+// export const mockTranscript = [
+//   // Zero to One - Chapter 1
+//   {
+//     id: '9-1-1',
+//     chapterId: '9-1',
+//     text: 'Every moment in business happens only once. The next Bill Gates will not build an operating system. The next Larry Page will not make a search engine.',
+//     startTime: 0,
+//     endTime: 10
+//   },
+//   {
+//     id: '9-1-2',
+//     chapterId: '9-1',
+//     text: 'If you are copying these guys, you aren’t learning from them. Doing what we already know how to do takes the world from 1 to n, adding more of something familiar.',
+//     startTime: 10,
+//     endTime: 20
+//   },
+//   {
+//     id: '9-1-3',
+//     chapterId: '9-1',
+//     text: 'But when you do something new, you go from 0 to 1. The act of creation is singular, as is the moment of creation.',
+//     startTime: 20,
+//     endTime: 30
+//   },
+
+//   // Atomic Habits - Chapter 1
+//   {
+//     id: '10-1-1',
+//     chapterId: '10-1',
+//     text: 'Habits are the compound interest of self-improvement. The effects of your habits multiply as you repeat them across time.',
+//     startTime: 0,
+//     endTime: 10
+//   },
+//   {
+//     id: '10-1-2',
+//     chapterId: '10-1',
+//     text: 'Breaking a bad habit or forming a good one is not about making a single massive change. It’s about accumulating tiny improvements.',
+//     startTime: 10,
+//     endTime: 20
+//   },
+//   {
+//     id: '10-1-3',
+//     chapterId: '10-1',
+//     text: 'Small changes often appear to make no difference until you cross a critical threshold. The most powerful outcomes are delayed.',
+//     startTime: 20,
+//     endTime: 30
+//   },
+
+//   // The Psychology of Money - Chapter 1
+//   {
+//     id: '11-1-1',
+//     chapterId: '11-1',
+//     text: 'People make financial decisions based on their own unique experiences — not textbook logic. Everyone is shaped by the world they grew up in.',
+//     startTime: 0,
+//     endTime: 10
+//   },
+//   {
+//     id: '11-1-2',
+//     chapterId: '11-1',
+//     text: 'You might assume others are crazy for making certain financial choices, but they’re simply responding to life experiences different from yours.',
+//     startTime: 10,
+//     endTime: 20
+//   },
+//   {
+//     id: '11-1-3',
+//     chapterId: '11-1',
+//     text: 'Understanding that no one’s crazy — just different — is key to having a more compassionate and effective view of money.',
+//     startTime: 20,
+//     endTime: 30
+//   }
+// ];
+
 export const mockTranscript = [
-  // Zero to One - Chapter 1
+  // Zero to One - Chapter 1: The Challenge of the Future
   {
     id: '9-1-1',
     chapterId: '9-1',
-    text: 'Every moment in business happens only once. The next Bill Gates will not build an operating system. The next Larry Page will not make a search engine.',
+    text: 'Whenever I interview someone for a job, I like to ask this question: What important truth do very few people agree with you on?',
     startTime: 0,
     endTime: 10
   },
   {
     id: '9-1-2',
     chapterId: '9-1',
-    text: 'If you are copying these guys, you aren’t learning from them. Doing what we already know how to do takes the world from 1 to n, adding more of something familiar.',
+    text: 'It sounds simple, but it’s hard. Knowledge taught in school is already agreed upon. Saying something unpopular takes courage.',
     startTime: 10,
     endTime: 20
   },
   {
     id: '9-1-3',
     chapterId: '9-1',
-    text: 'But when you do something new, you go from 0 to 1. The act of creation is singular, as is the moment of creation.',
+    text: 'Most people answer with things like: Our educational system is broken. America is exceptional. There is no God.',
     startTime: 20,
     endTime: 30
+  },
+  {
+    id: '9-1-4',
+    chapterId: '9-1',
+    text: 'These are bad answers. Many already agree, or they’re just one side of a familiar debate.',
+    startTime: 30,
+    endTime: 40
+  },
+  {
+    id: '9-1-5',
+    chapterId: '9-1',
+    text: 'A good answer would sound like: Most people believe in X, but the truth is the opposite of X.',
+    startTime: 40,
+    endTime: 50
+  },
+  {
+    id: '9-1-6',
+    chapterId: '9-1',
+    text: 'I’ll share my own answer later. But first — what does this question have to do with the future?',
+    startTime: 50,
+    endTime: 60
+  },
+  {
+    id: '9-1-7',
+    chapterId: '9-1',
+    text: 'The future is the set of all moments yet to come. But what makes it important is that it will be different.',
+    startTime: 60,
+    endTime: 70
+  },
+  {
+    id: '9-1-8',
+    chapterId: '9-1',
+    text: 'If nothing changes for 100 years, the future is far away. If things change radically next decade, the future is almost here.',
+    startTime: 70,
+    endTime: 80
+  },
+  {
+    id: '9-1-9',
+    chapterId: '9-1',
+    text: 'We can’t predict it exactly. But we know it will be different — and it must be rooted in today’s world.',
+    startTime: 80,
+    endTime: 90
+  },
+  {
+    id: '9-1-10',
+    chapterId: '9-1',
+    text: 'Good answers to the contrarian question help us glimpse the future by seeing the present differently.',
+    startTime: 90,
+    endTime: 100
   },
 
-  // Atomic Habits - Chapter 1
+  // Zero to One: The Future of Progress
   {
-    id: '10-1-1',
-    chapterId: '10-1',
-    text: 'Habits are the compound interest of self-improvement. The effects of your habits multiply as you repeat them across time.',
-    startTime: 0,
-    endTime: 10
+    id: '9-1-11',
+    chapterId: '9-1',
+    text: 'Progress can be horizontal — copying things that work — or vertical — doing something new.',
+    startTime: 100,
+    endTime: 110
   },
   {
-    id: '10-1-2',
-    chapterId: '10-1',
-    text: 'Breaking a bad habit or forming a good one is not about making a single massive change. It’s about accumulating tiny improvements.',
-    startTime: 10,
-    endTime: 20
+    id: '9-1-12',
+    chapterId: '9-1',
+    text: 'Horizontal progress is going from 1 to n. It’s easy to imagine because we know it already.',
+    startTime: 110,
+    endTime: 120
   },
   {
-    id: '10-1-3',
-    chapterId: '10-1',
-    text: 'Small changes often appear to make no difference until you cross a critical threshold. The most powerful outcomes are delayed.',
-    startTime: 20,
-    endTime: 30
-  },
-
-  // The Psychology of Money - Chapter 1
-  {
-    id: '11-1-1',
-    chapterId: '11-1',
-    text: 'People make financial decisions based on their own unique experiences — not textbook logic. Everyone is shaped by the world they grew up in.',
-    startTime: 0,
-    endTime: 10
+    id: '9-1-13',
+    chapterId: '9-1',
+    text: 'Vertical progress is going from 0 to 1. It’s about creating something entirely new.',
+    startTime: 120,
+    endTime: 130
   },
   {
-    id: '11-1-2',
-    chapterId: '11-1',
-    text: 'You might assume others are crazy for making certain financial choices, but they’re simply responding to life experiences different from yours.',
-    startTime: 10,
-    endTime: 20
+    id: '9-1-14',
+    chapterId: '9-1',
+    text: 'If you have one typewriter and build 100, that’s horizontal progress. Build a word processor — that’s vertical.',
+    startTime: 130,
+    endTime: 140
   },
   {
-    id: '11-1-3',
-    chapterId: '11-1',
-    text: 'Understanding that no one’s crazy — just different — is key to having a more compassionate and effective view of money.',
-    startTime: 20,
-    endTime: 30
+    id: '9-1-15',
+    chapterId: '9-1',
+    text: 'At a macro level, horizontal progress is globalization. Vertical progress is technology.',
+    startTime: 140,
+    endTime: 150
+  },
+  {
+    id: '9-1-16',
+    chapterId: '9-1',
+    text: 'China’s 20-year plan is a clear example of globalization — copying what works elsewhere.',
+    startTime: 150,
+    endTime: 160
+  },
+  {
+    id: '9-1-17',
+    chapterId: '9-1',
+    text: 'They build 19th-century railroads, 20th-century air conditioners, and whole cities — sometimes skipping steps.',
+    startTime: 160,
+    endTime: 170
+  },
+  {
+    id: '9-1-18',
+    chapterId: '9-1',
+    text: 'Silicon Valley, by contrast, focuses on technology — new ways of doing things.',
+    startTime: 170,
+    endTime: 180
+  },
+  {
+    id: '9-1-19',
+    chapterId: '9-1',
+    text: 'You can have globalization without technology, technology without globalization, both, or neither.',
+    startTime: 180,
+    endTime: 190
+  },
+  {
+    id: '9-1-20',
+    chapterId: '9-1',
+    text: 'From 1815 to 1914, the world had both: rapid globalization and rapid technology advances.',
+    startTime: 190,
+    endTime: 200
+  },
+  {
+    id: '9-1-21',
+    chapterId: '9-1',
+    text: 'From World War I to 1971, technology grew, but globalization slowed.',
+    startTime: 200,
+    endTime: 210
+  },
+  {
+    id: '9-1-22',
+    chapterId: '9-1',
+    text: 'Since 1971, globalization surged, but major technological leaps mostly stayed within IT.',
+    startTime: 210,
+    endTime: 220
+  },
+  {
+    id: '9-1-23',
+    chapterId: '9-1',
+    text: 'We speak of developed and developing nations, as if all that’s left is copying what works.',
+    startTime: 220,
+    endTime: 230
+  },
+  {
+    id: '9-1-24',
+    chapterId: '9-1',
+    text: 'But that’s wrong. My contrarian answer: technology matters more than globalization.',
+    startTime: 230,
+    endTime: 240
+  },
+  {
+    id: '9-1-25',
+    chapterId: '9-1',
+    text: 'Without new technology, if China doubles energy use, pollution will double too.',
+    startTime: 240,
+    endTime: 250
+  },
+  {
+    id: '9-1-26',
+    chapterId: '9-1',
+    text: 'If India’s households adopt only today’s methods, the environmental damage will be catastrophic.',
+    startTime: 250,
+    endTime: 260
+  },
+  {
+    id: '9-1-27',
+    chapterId: '9-1',
+    text: 'Globalization without innovation leads to devastation, not prosperity.',
+    startTime: 260,
+    endTime: 270
+  },
+  {
+    id: '9-1-28',
+    chapterId: '9-1',
+    text: 'New technology has never been automatic. Our ancestors mostly lived in static, zero-sum societies.',
+    startTime: 270,
+    endTime: 280
+  },
+  {
+    id: '9-1-29',
+    chapterId: '9-1',
+    text: 'For 10,000 years, progress was slow: from primitive agriculture to medieval windmills.',
+    startTime: 280,
+    endTime: 290
+  },
+  {
+    id: '9-1-30',
+    chapterId: '9-1',
+    text: 'Only since the steam engine in the 1760s has the world seen continuous technological progress.',
+    startTime: 290,
+    endTime: 300
+  },
+  {
+    id: '9-1-31',
+    chapterId: '9-1',
+    text: 'We now live in a richer world than any before us could imagine.',
+    startTime: 300,
+    endTime: 310
+  },
+  {
+    id: '9-1-32',
+    chapterId: '9-1',
+    text: 'But our parents and grandparents expected even more: cheap energy, short workweeks, vacations on the moon.',
+    startTime: 310,
+    endTime: 320
+  },
+  {
+    id: '9-1-33',
+    chapterId: '9-1',
+    text: 'Those dreams didn’t materialize. Only computers and communication improved dramatically.',
+    startTime: 320,
+    endTime: 330
+  },
+  {
+    id: '9-1-34',
+    chapterId: '9-1',
+    text: 'Our smartphones distract us from the fact that much around us is strangely old.',
+    startTime: 330,
+    endTime: 340
+  },
+  {
+    id: '9-1-35',
+    chapterId: '9-1',
+    text: 'Our challenge today is not just to imagine a better future — but to create the technologies that make it real.',
+    startTime: 340,
+    endTime: 350
   }
 ];
 
